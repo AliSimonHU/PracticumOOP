@@ -1,3 +1,19 @@
+
+// - width: double
+// - length: double
+// - depth: double
+/////////////////////////////////////
+// + Zwembad()
+// + Zwembad(double, double, double)
+// + getWidth(): double
+// + setWidth(double): void
+// + getLength(): double
+// + setLength(double): void
+// + getDepth(): double
+// + setDepth(double): void
+// + contents(): double
+// + toString(): String
+
 public class Zwembad {
     private double width;
     private double length;
@@ -39,7 +55,7 @@ public class Zwembad {
         this.depth = depth;
     }
 
-    public double content() {
+    public double contents() {
         return width * length * depth;
     }
 
